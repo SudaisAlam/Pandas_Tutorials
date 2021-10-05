@@ -9,5 +9,5 @@ print(Data_2.head())
 
 # Reading a DataFrame
 
-read = pd.read_csv('/Users/sudaisalam/Downloads/titanic/train.csv')
+read = pd.read_csv('train.csv')
 print(read.head())

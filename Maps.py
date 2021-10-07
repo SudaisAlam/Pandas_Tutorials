@@ -1,6 +1,6 @@
 import pandas as pd
 
-Data = pd.read_csv('/Users/sudaisalam/Downloads/titanic/train.csv')
+Data = pd.read_csv('train.csv')
 
 mean_age = Data.Age.mean()
 print(Data.Age.map(lambda p: p - mean_age))

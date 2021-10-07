@@ -1,6 +1,6 @@
 import pandas as pd
 
-Data = pd.read_csv('/Users/sudaisalam/Downloads/titanic/train.csv')
+Data = pd.read_csv('train.csv')
 
 # checking missing values
 print(Data.Age.isnull())

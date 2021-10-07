@@ -1,6 +1,6 @@
 import pandas as pd
 
-Data = pd.read_csv('/Users/sudaisalam/Downloads/titanic/train.csv')
+Data = pd.read_csv('train.csv')
 
 print(Data.groupby("Age").Age.count())
 print(Data.groupby("Fare").Fare.min())

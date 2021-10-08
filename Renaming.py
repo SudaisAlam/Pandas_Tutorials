@@ -1,6 +1,6 @@
 import pandas as pd
 
-Data = pd.read_csv('/Users/sudaisalam/Downloads/titanic/train.csv')
+Data = pd.read_csv('train.csv')
 
 print(Data.rename(columns={"Survived" : "Status"}))
 print(Data.rename(index={0 : "first", 1: "Second"}))
